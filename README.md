@@ -4,13 +4,21 @@ By Group 3 | Politecnico di Milano
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-blue.svg)](https://www.mathworks.com/products/matlab.html)
 [![Simulink](https://img.shields.io/badge/Simulink-Modeling-orange.svg)](https://www.mathworks.com/products/simulink.html)
 [![Control Theory](https://img.shields.io/badge/Control-LQR%20%7C%20SMC%20%7C%20PID-green.svg)](#)
+![alt text](https://img.shields.io/badge/State%20Estimation-Kalman%20Filter%20%7C%20Luenberger-orange.svg)
+![alt text](https://img.shields.io/badge/Hardware-TI%20LaunchPad-red.svg)
 
 This project details the complete design cycle—from first-principles physics to real-time hardware implementation—of a control system for an inverted pendulum on a cart. 
 
 ## 📺 Project Showreel
-| Swing-Up & Stabilization (Simulation) | Hardware Stabilization (LQR + Kalman) |
+| Sw
+
+
+
+
+
+ing-Up & Stabilization (Simulation) | Hardware Stabilization (LQR + Kalman) |
 |---|---|
-| ![Swing-Up Video](link-to-your-swingup-video.gif) | ![Hardware Video](link-to-your-hardware-video.gif) |
+| ![Swing-Up Video](https://github.com/user-attachments/assets/e811a745-80bd-4b9e-8334-133911a1600d) | ![Hardware Video](link-to-your-hardware-video.gif) |
 *(Place your videos/GIFs here. If they are large, host them on YouTube or upload as .mp4/GIF to the repo)*
 
 ---
