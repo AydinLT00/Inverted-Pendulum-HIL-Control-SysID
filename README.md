@@ -1,3 +1,4 @@
+
 # Modeling, System Identification and Control of an Inverted Pendulum on Cart
 By Group 3 | Politecnico di Milano 
 
@@ -8,17 +9,14 @@ By Group 3 | Politecnico di Milano
 ![alt text](https://img.shields.io/badge/Hardware-TI%20LaunchPad-red.svg)
 
 This project details the complete design cycle—from first-principles physics to real-time hardware implementation—of a control system for an inverted pendulum on a cart. 
+<!-- <img width="426" height="240" alt="SwingUP_gif - Made with Clipchamp" src="https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff" /> -->
+<img width="426" height="240" alt="pend_down_agg" src="https://github.com/user-attachments/assets/5938dda1-343e-446e-9b70-5cd9eb9c5119" />
+
 
 ## 📺 Project Showreel
-| Sw
-
-
-
-
-
-ing-Up & Stabilization (Simulation) | Hardware Stabilization (LQR + Kalman) |
+| Swing-Up (Bang-Bang method) | Hardware Stabilization (LQR + Kalman) |
 |---|---|
-| ![Swing-Up Video](https://github.com/user-attachments/assets/e811a745-80bd-4b9e-8334-133911a1600d) | ![Hardware Video](link-to-your-hardware-video.gif) |
+| ![Swing-Up Video](https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff) | ![Hardware Video](link-to-your-hardware-video.gif) |
 *(Place your videos/GIFs here. If they are large, host them on YouTube or upload as .mp4/GIF to the repo)*
 
 ---
