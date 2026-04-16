@@ -10,8 +10,11 @@ By Group 3 | Politecnico di Milano
 
 This project details the complete design cycle—from first-principles physics to real-time hardware implementation—of a control system for an inverted pendulum on a cart. 
 <!-- <img width="426" height="240" alt="SwingUP_gif - Made with Clipchamp" src="https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff" /> -->
+
 <img width="426" height="240" alt="pend_down_agg" src="https://github.com/user-attachments/assets/5938dda1-343e-446e-9b70-5cd9eb9c5119" />
 
+
+<img width="426" height="240" alt="pend_down_agg" src="https://drive.google.com/file/d/1AYcCWyyp9KZ25BOjlCxalFjC7XO5TZSA/view?usp=sharing" />
 
 ## 📺 Project Showreel
 | Swing-Up (Bang-Bang method) | Hardware Stabilization (LQR + Kalman) |
