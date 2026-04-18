@@ -9,20 +9,33 @@ By Group 3 | Politecnico di Milano
 ![alt text](https://img.shields.io/badge/Hardware-TI%20LaunchPad-red.svg)
 
 This project details the complete design cycle—from first-principles physics to real-time hardware implementation—of a control system for an inverted pendulum on a cart. 
-<!-- <img width="426" height="240" alt="SwingUP_gif - Made with Clipchamp" src="https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff" /> -->
 
-<img width="426" height="240" alt="pend_down_agg" src="https://github.com/user-attachments/assets/5938dda1-343e-446e-9b70-5cd9eb9c5119" />
-
-
-<img width="426" height="240" alt="pend_down_agg" src="https://drive.google.com/file/d/1AYcCWyyp9KZ25BOjlCxalFjC7XO5TZSA/view?usp=sharing" />
 
 ## 📺 Project Showreel
-| Swing-Up (Bang-Bang method) | Hardware Stabilization (LQR + Kalman) |
+| Swing-Up (Energy-Based) | Hardware Stabilization (LQR + Kalman) |
 |---|---|
-| ![Swing-Up Video](https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff) | ![Hardware Video](link-to-your-hardware-video.gif) |
-*(Place your videos/GIFs here. If they are large, host them on YouTube or upload as .mp4/GIF to the repo)*
+| ![alt text](https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff) | <video src="YOUR_HARDWARE_VIDEO_URL.mp4" width="400" autoplay loop muted></video> |
+| **Sliding Mode Control** | **Aggressive PID (Pendulum down)** |
+| <video src="https://github.com/AydinLT00/AydinLT00.github.io/blob/fd5f47112983ff4d261e6a405739eb90883f3d34/SMC_test_video.mp4?raw=true" width="400" autoplay loop muted></video> | ![Hardware Video](https://github.com/user-attachments/assets/5938dda1-343e-446e-9b70-5cd9eb9c5119) |
 
 ---
+
+## 🛠️ Control Implementations (Simulink)
+
+Below are the architectural implementations for the three core control phases developed in Simulink.
+
+### 1. PID Control (Pendulum Down)
+Used for initial system identification and tracking performance while the pendulum is in its stable equilibrium.
+<img width="1472" height="685" alt="EX1_simulink" src="https://github.com/user-attachments/assets/34c0d2f5-fed4-48c4-b0c6-8329d1e8d25c" />
+
+### 2. State Feedback & Estimation (Pendulum Upright)
+This architecture integrates the **LQR/SMC** controllers with **Kalman Filter/Luenberger Observer** to maintain the unstable equilibrium.
+<img width="1472" height="685" alt="EX2_simulink" src="https://github.com/user-attachments/assets/4b044d3f-e899-4035-9ecf-f78140be241d" />
+
+### 3. Swing-Up Maneuver
+A heuristic "Bang-Bang" / Energy-pumping strategy used to transition the pendulum from 180° to 0°.
+<img width="1472" height="685" alt="EX3_simulink" src="https://github.com/user-attachments/assets/336ea3fc-9628-4abb-9616-30b4ac6b302e" />
+
 
 ## 🚀 Overview
 The goal was to design a system capable of:
