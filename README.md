@@ -16,9 +16,11 @@ This project details the complete design cycle—from first-principles physics t
 |---|---|
 | ![alt text](https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff) | <video src="YOUR_HARDWARE_VIDEO_URL.mp4" width="400" autoplay loop muted></video> |
 | **Sliding Mode Control** | **Aggressive PID (Pendulum down)** |
-| <video src="https://github.com/AydinLT00/AydinLT00.github.io/blob/fd5f47112983ff4d261e6a405739eb90883f3d34/SMC_test_video.mp4?raw=true" width="400" autoplay loop muted></video> | ![Hardware Video](https://github.com/user-attachments/assets/5938dda1-343e-446e-9b70-5cd9eb9c5119) |
+| <video src="https://github.com/AydinLT00/Inverted-Pendulum-HIL-Control-SysID/releases/download/smc_vid/SMC_test_video.mp4" width="400" autoplay loop muted></video> | ![Hardware Video](https://github.com/user-attachments/assets/5938dda1-343e-446e-9b70-5cd9eb9c5119) |
 
 ---
+
+
 
 ## 🛠️ Control Implementations (Simulink)
 
