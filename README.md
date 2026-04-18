@@ -14,14 +14,11 @@ This project details the complete design cycle—from first-principles physics t
 ## 📺 Project Showreel
 | Swing-Up (Energy-Based) | Hardware Stabilization (LQR + Kalman) |
 |---|---|
-| ![alt text](https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff) | <video src="YOUR_HARDWARE_VIDEO_URL.mp4" width="400" autoplay loop muted></video> |
+| <img src="https://github.com/user-attachments/assets/b9abee1d-34bf-40bb-9fc8-9309746d70ff" width="400px"> | <video src="YOUR_HARDWARE_VIDEO_URL.mp4" width="400" autoplay loop muted></video> |
 | **Sliding Mode Control** | **Aggressive PID (Pendulum down)** |
-| <video src="https://github.com/AydinLT00/Inverted-Pendulum-HIL-Control-SysID/releases/download/smc_vid/SMC_test_video.mp4" width="400" autoplay loop muted></video> | ![Hardware Video](https://github.com/user-attachments/assets/5938dda1-343e-446e-9b70-5cd9eb9c5119) |
+| <img src="https://github.com/AydinLT00/Inverted-Pendulum-HIL-Control-SysID/releases/download/smc_high/SMC_github_high.gif" width="400px"> | <img src="https://github.com/user-attachments/assets/5938dda1-343e-446e-9b70-5cd9eb9c5119" width="400px"> |
 
 ---
-
-
-
 ## 🛠️ Control Implementations (Simulink)
 
 Below are the architectural implementations for the three core control phases developed in Simulink.
